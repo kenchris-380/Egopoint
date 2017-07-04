@@ -1,3 +1,8 @@
+<?php
+  session_start();
+  $conn = mysqli_connect('localhost', 'root', 'root');
+  mysqli_select_db($conn, 'egopoint');
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -30,12 +35,8 @@
     <h4> Submit Your CV </h4> <br>
       <?php
         if (isset($_SESSION['msg'])) {
-          echo "hello";
-          if ($_SESSION['msg'] == "Uploaded Successfully") {
-            echo '<script> alert('. $_SESSION['msg'] .') </script>';
-          } else {
-            echo '<script> alert(' . $_SESSION['msg'] . ') </script>';
-          }
+          echo "<span class='btn'>" . $_SESSION['msg'] . "</span>";
+          session_destroy();
         }
       ?>
     </span>
@@ -46,6 +47,18 @@
 
       <label for="name"> <h5>Email:</h5>
         <input type="email" name="email" placeholder="Email" value="">
+      </label> <br>
+
+      <label for="name"> <h5>Job:</h5>
+        <select class="" name="jobtitle">
+          <?php
+            $jobs = "SELECT * FROM available_job WHERE close = 0";
+            $result = mysqli_query($conn, $jobs);
+            while ($row = mysqli_fetch_array($result)) {
+              echo '<option> ' . $row['name'] . ' </option>';
+            }
+          ?>
+        </select>
       </label> <br>
 
       <label for="name"> <h5>Description:</h5>
