@@ -9,7 +9,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="description" content="Free management consulting website templates. Download management consulting web layout / template." />
 <meta name="keywords" content="management consulting  website template, management consulting  website layout, management consulting web template, management consulting  web layout, business and finance templates free download, download business and finance templates, free business and finance templates, business and finance website templates, business and finance web templates, business and finance web layouts, free download," />
-<title>Management Consulting  Website Template | Business and Finance Templates Free Download</title>
+<title>Egopoint Limited | Career</title>
 <link href="style.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 <!--<link href="w3.css" rel="stylesheet" type="text/css">-->
@@ -18,9 +18,9 @@
 <body>
 <?php include_once 'header.php' ?>
 
-<div id="head3">
-    <div id="header">
-    	<div id="logo"><img src="images/name.png" alt="Discover Consulting" /></div>
+<div id="head">
+    <div id="header2">
+    	<div id="logo"><img src="docs/logo.jpg" alt="Logo" /></div>
     </div>
 </div>
 
@@ -41,24 +41,26 @@
       ?>
     </span>
     <form action="upload.php" method="post" enctype="multipart/form-data" accept-charset="UTF-8" target="_self">
+
+      <label for="name"> <h5>Job:</h5>
+        <select name="jobtitle">
+          <option>Choose a Job</option>
+          <?php
+          $jobs = "SELECT * FROM available_job WHERE close = 0";
+          $result = mysqli_query($conn, $jobs);
+          while ($row = mysqli_fetch_array($result)) {
+            echo '<option> ' . $row['name'] . ' </option>';
+          }
+          ?>
+        </select>
+      </label> <br> <br>
+
       <label for="name"> <h5>Fullname:</h5>
         <input type="text" name="name" placeholder="Fullname" value="">
       </label> <br>
 
       <label for="name"> <h5>Email:</h5>
         <input type="email" name="email" placeholder="Email" value="">
-      </label> <br>
-
-      <label for="name"> <h5>Job:</h5>
-        <select class="" name="jobtitle">
-          <?php
-            $jobs = "SELECT * FROM available_job WHERE close = 0";
-            $result = mysqli_query($conn, $jobs);
-            while ($row = mysqli_fetch_array($result)) {
-              echo '<option> ' . $row['name'] . ' </option>';
-            }
-          ?>
-        </select>
       </label> <br>
 
       <label for="name"> <h5>Description:</h5>
