@@ -22,11 +22,11 @@
 <table id="content" border="0">
 		<tr>
     	<td valign="top" class="border"><h1>MANPOWER</h1>
-      <p>Ego Point Ltd is a Leading Manpower Recruitment Industry which provides End-to-End Recruitment Solutions for oil and gas Industries. Ego Point is backed up by a team of vibrant youngsters full of zest and driven by the urge to succeed and be the best. The Success story of Ego Point relies on its qualitative approach and industries best practices. Our dedication and enthusiasm that has helped us achieve so much within a short span of time and have a strong clientele to our credit. </p>
+      <p>Egopoint Limited have mobilised workers both onshore and offshore across all the major Oil & Gas regions locally and internationally. We are able to deliver a first class and high level service whether this be for high volume local labour recruitment needs, skilled technicians and engineers, project management or senior executives either local or international. </p>
 		<div class="more" align="right"><a href="service.php"><img src="images/more.png" alt="More" border="0" /></a></div>
       </td>
       <td valign="top" class="border"><h1>TRAINING</h1>
-      <p>Ego Point deals with thousands of Job seekers daily. Though they were well qualified in their Academics, they lack in communications skill and presentation skills. By analyzing this we found a huge gap between the Industry expectations and the Job Seekers knowledge. Thus made us to start our own Training divisions to provide quality trainings. Ego Point trains candidates on the required and then send for the Interview. We also train candidates according to the Companies specific requirements.</p>
+      <p>Ego Point deals with thousands of Job seekers daily. Though they were well qualified in their Academics, they lack in communications skill and presentation skills. By analyzing this we found a huge gap between the Industry expectations and the Job Seekers knowledge. Thus made us to start our own Training divisions to provide quality trainings.</p>
 		<div class="more" align="right"><a href="service.php"><img src="images/more.png" alt="More Link" border="0" /></a></div>
 		</td>
       <td valign="top"><h1>CONSULTANCY</h1>
@@ -40,8 +40,11 @@
 	<td width="612">
     	<h1>WHO WE ARE</h1>
         <div class="img"><img src="images/image_01.png" border="0" /></div>
-      <p>Ego Point Ltd is a fully-owned Nigerian company which has provided outsourcing and training services to the oil and gas industry in Nigeria since 2000. At all levels, our strategic alliances and technical associations have been based on the changing dynamics for Oilfield Services Provision in Nigeria, in particular the increasingly “man power demand" nature of the industry in the country and our long-term strategy of vertical integration, to position us to support clients through the lifecycle of assets-through the development of conceptual designs, detailed engineering, construction and construction management, installation, commissioning, and decommissioning.</p>
-	<div class="view"><a href="#">View More...</a></div>
+      <p>Egopoint Limited is a 100% Nigerian owned company with operational base in Port Harcourt Rivers State.  The company has been providing services in different areas for oil and gas industry.
+        Egopoint Limited consists of individuals with technical expertise in the oil and gas industry engineering and construction.  Our pool of staff comprises of a balance of book and field experienced personnel.  We have team of professional with vast experience in oil and gas industry.
+        With our in-depth knowledge of the oil industry, and so many years experience gained by the Top Management of Egopoint Limited we are in a position to offer a wide range of consultancy services in the oil and gas industry.
+      </p>
+	<div class="view"><a href="about.php">View More...</a></div>
     </td>
     <td class="sol">
     	<h1>EGO SOLUTIONS</h1>

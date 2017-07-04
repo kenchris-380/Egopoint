@@ -40,8 +40,12 @@ ul{
 	vertical-align: top;
 }
 .left-wrap {
-	width: 65%;
+	width: 62%;
 	line-height: 25px;
+}
+.middle-wrap {
+	width: 60%;
+	margin: 0 20%;
 }
 .left-wrap ul {
 	display: block;
@@ -50,6 +54,11 @@ ul{
 .right-wrap {
 	width: 29%;
 	float: right;
+}
+input {
+	display: block;
+	width: 250px;
+	height: 30px;
 }
 .btn, .btn:hover {
 	display: inline-table;
@@ -64,12 +73,35 @@ ul{
 	transition: .5s ease-in-out;
 	box-shadow: 0 3px 7px #ccc;
 }
-.img-box{
+.img-box, .img-box1, .img-box2{
 	position: absolute;
-	top: 400px;
-	height: 300px;
+	padding: 20px;
+	right: 0;
+	height: auto;
+	min-height: 300px;
 	width: 400px;
 	background: #ccc;
+}
+.img-box {
+	top: 381px;
+	line-height: 25px;
+}
+.img-box1 {
+	top: 420px;
+	line-height: 27px;
+}
+.img-box2 {
+	top: 430px;
+	line-height: 30px;
+}
+.img-box p,
+.img-box h1,
+.img-box h2,
+.img-box h3,
+.img-box h4,
+.img-box h5,
+.img-box h6 {
+	line-height: 27px;
 }
 .spacer{
 	clear:both;

@@ -13,47 +13,52 @@
 <body>
 <?php include_once 'header.php' ?>
 
-<div id="head5">
+<div id="head3">
     <div id="header">
     	<div id="logo"><img src="images/name.png" alt="Discover Consulting" /></div>
     </div>
 </div>
 
-<table id="content" border="0">
-		<tr>
-    	<td valign="top" class="border"><h1>MANPOWER</h1>
-      <p>Ego Point Ltd is a Leading Manpower Recruitment Industry which provides End-to-End Recruitment Solutions for oil and gas Industries. Ego Point is backed up by a team of vibrant youngsters full of zest and driven by the urge to succeed and be the best. The Success story of Ego Point relies on its qualitative approach and industries best practices. Our dedication and enthusiasm that has helped us achieve so much within a short span of time and have a strong clientele to our credit. </p>
-		<div class="more" align="right"><a href="#"><img src="images/more.png" alt="More" border="0" /></a></div>
-      </td>
-      <td valign="top" class="border"><h1>TRAINING</h1>
-      <p>Ego Point deals with thousands of Job seekers daily. Though they were well qualified in their Academics, they lack in communications skill and presentation skills. By analyzing this we found a huge gap between the Industry expectations and the Job Seekers knowledge. Thus made us to start our own Training divisions to provide quality trainings. Ego Point trains candidates on the required and then send for the Interview. We also train candidates according to the Companies specific requirements.</p>
-		<div class="more" align="right"><a href="#"><img src="images/more.png" alt="More Link" border="0" /></a></div>
-		</td>
-      <td valign="top"><h1>CONSULTANCY</h1>
-      <p>Ego Point is a consulting agency that manages full-scale projects for the energy sector. Ego Point helps energy companies worldwide to Create, Realise and Enhance the value in their assets. Our Consultancy Services cuts across Commissioning &amp; Start-up &amp; Shutdown Management &amp; Services of all Oil &amp; Gas onshore and offshore projects &amp; new Installation.</p>
-		<div class="more" align="right"><a href="#"><img src="images/more.png" alt="More" border="0" /></a></div>
-		</td>
-    </tr>
-</table>
+<section class="content-wrap">
+  <div class="middle-wrap">
+    <h2><span class="btn"> Our Career </span></h2>
+    <br>
+    <p>
+      Egopoint Limited recruits broadly and internationally. If you would like to work with us then please send us a cover letter and your CV/resume. We are especially looking for professionals with experience of the international oil industry and technical skills (welders, heavy-duty mechanics, Crane operators, etc)
+    </p>
+    <br>
+    <h4> Submit Your CV </h4> <br>
+      <?php
+        if (isset($_SESSION['msg'])) {
+          echo "hello";
+          if ($_SESSION['msg'] == "Uploaded Successfully") {
+            echo '<script> alert('. $_SESSION['msg'] .') </script>';
+          } else {
+            echo '<script> alert(' . $_SESSION['msg'] . ') </script>';
+          }
+        }
+      ?>
+    </span>
+    <form action="upload.php" method="post" enctype="multipart/form-data" accept-charset="UTF-8" target="_self">
+      <label for="name"> <h5>Fullname:</h5>
+        <input type="text" name="name" placeholder="Fullname" value="">
+      </label> <br>
 
-<table id="content1"><tr align="justify">
-	<td width="612">
-    	<h1>WHO WE ARE</h1>
-        <div class="img"><img src="images/image_01.png" border="0" /></div>
-      <p>Ego Point Ltd is a fully-owned Nigerian company which has provided outsourcing and training services to the oil and gas industry in Nigeria since 2000. At all levels, our strategic alliances and technical associations have been based on the changing dynamics for Oilfield Services Provision in Nigeria, in particular the increasingly “man power demand" nature of the industry in the country and our long-term strategy of vertical integration, to position us to support clients through the lifecycle of assets-through the development of conceptual designs, detailed engineering, construction and construction management, installation, commissioning, and decommissioning.</p>
-	<div class="view"><a href="#">View More...</a></div>
-    </td>
-    <td class="sol">
-    	<h1>EGO SOLUTIONS</h1>
-        <p>Solution in a business gives proven success in industries, specialties, and product areas. Ego point uses the following solutions to enhance industries performance and reduce bottle neck for competent personel </p>
-        <ul>
-        <li>Manpower (Outsourcing)</li>
-				<li>Training</li>
-				<li>Consultancy</li>
-        </ul>
-        <div class="view"><a href="#">View More...</a></div>
-    </td>
-</tr></table><br />
+      <label for="name"> <h5>Email:</h5>
+        <input type="email" name="email" placeholder="Email" value="">
+      </label> <br>
+
+      <label for="name"> <h5>Description:</h5>
+        <textarea name="desc" rows="8" cols="40" placeholder="Description of the job you wish to apply for"></textarea>
+      </label> <br>
+
+      <label for="name"> <h5>Upload Resume:</h5>
+        <input type="file" name="file">
+      </label> <br>
+      <button type="submit" class="btn" name="submit"> Upload </button>
+    </form>
+  </div>
+</section>
 
 <?php include_once 'footer.php'; ?>
 

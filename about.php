@@ -24,12 +24,34 @@
     <h1> About Us </h1>
     <br>
     <p>
-      Ego Point Ltd is a fully-owned Nigerian company which has provided outsourcing and training services to the oil and gas industry in Nigeria since 2000. At all levels, our strategic alliances and technical associations have been based on the changing dynamics for Oilfield Services Provision in Nigeria, in particular the increasingly “man power demand" nature of the industry in the country and our long-term strategy of vertical integration, to position us to support clients through the lifecycle of assets-through the development of conceptual designs, detailed engineering, construction and construction management, installation, commissioning, and decommissioning.
+      Egopoint Limited is a 100% Nigerian owned company with operational base in Port Harcourt Rivers State.  The company has been providing services in different areas for oil and gas industry.
+      Egopoint Limited consists of individuals with technical expertise in the oil and gas industry engineering and construction.  Our pool of staff comprises of a balance of book and field experienced personnel.  We have team of professional with vast experience in oil and gas industry.
+      With our in-depth knowledge of the oil industry, and so many years experience gained by the Top Management of Egopoint Limited we are in a position to offer a wide range of consultancy services in the oil and gas industry.
     </p>
+    <br>
+    <h1>Core Values </h1>
+    <br>
+    <li>Sustainable Practice</li>
+    <li>Uncompromised Safety performances</li>
+    <li>Transparency in business</li>
+    <li>Integrity &amp; Accountability in business</li>
+    <li>Customer Focus</li>
+    <li>Total Quality Management across our systems and processes</li>
+    <li>Timely delivery of projects.</li>
+    <br>
+    Our core values reflect what is truly important to us as an organization. These values do not change from time to time, situation to situation or person to person, but rather they are the bedrock of our company's culture.
+</h1>
   </div>
   <div class="right-wrap">
-    <div class="img-box">
-
+    <div class="img-box2">
+      <h3> <span class="btn"> Our Vision </span> </h3>
+      <p>
+          To be the number 1 solutions provider by building a sustainable global Manpower provisions for the oil &amp; gas industry in emerging market.
+      </p>
+      <h3> <span class="btn"> Our Mission </span></h3>
+      <p>
+        Serving as your local content vehicle into the Nigerian oil & gas industry manpower needs while maintaining a strong commitment to timely delivery of projects, industry certified health, safety, security and environmental standards.
+      </p>
     </div>
   </div>
 </section>
