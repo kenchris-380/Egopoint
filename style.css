@@ -103,6 +103,9 @@ input {
 .img-box h6 {
 	line-height: 27px;
 }
+.img-box p {
+	font-size: 20px;
+}
 .spacer{
 	clear:both;
 	font-size:0;
@@ -164,56 +167,61 @@ img
 	text-shadow: #000 0.1em 0.1em 0.05em;
 	font-weight: 600px;
 }
-/*home*/
-#head1
+#head
 {
-	background:url(images/main_bg.jpg) 0 0 repeat-x;
-	height:316px;
-	width:100%;
-}
-/*about*/
-#head2
-{
-	background:url(images/main_bg.jpg) 0 0 repeat-x;
-	height:316px;
-	width:100%;
-}
-/*service*/
-#head3
-{
-	background:url(images/main_bg.jpg) 0 0 repeat-x;
-	height:316px;
-	width:100%;
-}
-/*contact*/
-#head4
-{
-	background:url(images/main_bg.jpg) 0 0 repeat-x;
-	height:316px;
-	width:100%;
-}
-/*career*/
-#head5
-{
-	background:url(images/main_bg.jpg) 0 0 repeat-x;
+	background:url('images/main.jpg') 0 0 repeat-x;
 	height:316px;
 	width:100%;
 }
 #header
 {
 	margin:0 auto;
-	background:url(images/main.jpg) 0 0 no-repeat;
+	background:url('images/main.jpg') 0 0 repeat-x;
+	width:962px;
+	height:316px;
+}
+#header1
+{
+	margin:0 auto;
+		background:url('docs/aboutus.jpg') 0 0 repeat-x;
+	width:962px;
+	height:316px;
+}
+
+#header2
+{
+	margin:0 auto;
+	background:url('docs/recruitment.jpg') 0 0 repeat-x;
+	width:962px;
+	height:316px;
+}
+
+#header3
+{
+	margin:0 auto;
+	background:url('docs/contactus.jpg') 0 0 repeat-x;
+	width:962px;
+	height:316px;
+}
+
+#header4
+{
+	margin:0 auto;
+	background:url('docs/training.jpg') 0 0 repeat-x;
 	width:962px;
 	height:316px;
 }
 #logo
 {
-	display:block;
-	background:url(images/logo.png) 70px 50px no-repeat;
+	position: absolute;
+	top: 120px;
+	left: 20px;
+	height: 30px;
+	width: 150px;
+	z-index: 100;
 }
-#logo img
-{
-	padding:160px 0 0 20px;
+#logo img {
+	height: 150px;
 }
 #content
 {
@@ -359,4 +367,11 @@ img
 {
 	color: #b6ff06;
 	text-decoration:underline;
+}
+.left-postion {
+	position: absolute;
+	float: right;
+	vertical-align: top;
+	top: 450px;
+	right: 60px;
 }

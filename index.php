@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="description" content="Free management consulting website templates. Download management consulting web layout / template." />
 <meta name="keywords" content="management consulting  website template, management consulting  website layout, management consulting web template, management consulting  web layout, business and finance templates free download, download business and finance templates, free business and finance templates, business and finance website templates, business and finance web templates, business and finance web layouts, free download," />
-<title>Management Consulting  Website Template | Business and Finance Templates Free Download</title>
+<title>Egopoint Limited | Home</title>
 <link href="style.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 <!--<link href="w3.css" rel="stylesheet" type="text/css">-->
@@ -13,9 +13,9 @@
 <body>
 <?php include_once 'header.php' ?>
 
-<div id="head1">
+<div id="head">
     <div id="header">
-    	<div id="logo"><img src="images/name.png" alt="Discover Consulting" /></div>
+    	<div id="logo"><img src="docs/logo.jpg" alt="Logo" /></div>
     </div>
 </div>
 
